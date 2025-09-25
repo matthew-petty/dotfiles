@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+# History files
+.histfile
+.bash_history
+.zsh_history
+
+# Claude
+.claude/
+claude.json
+.claudeignore
+*.claude-backup
