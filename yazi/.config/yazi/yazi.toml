@@ -1,0 +1,7 @@
+# Yazi configuration
+
+[plugin]
+prepend_previewers = [
+  { name = "*.mmd", run = "mermaid" },
+  { name = "*.mermaid", run = "mermaid" }
+]
