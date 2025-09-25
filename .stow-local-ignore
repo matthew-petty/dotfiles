@@ -9,3 +9,5 @@
 ^/.histfile
 ^/.claude
 ^/._DS_Store
+
+^/**/.histfile
