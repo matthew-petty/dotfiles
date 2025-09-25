@@ -1,4 +1,4 @@
-# Comments and blank lines are allowed.
+# Copy this file to all stow package directories
 \.git
 \.gitignore
 \.gitmodules
