@@ -210,7 +210,7 @@ function y() {
 
 
 # pz-picker development aliases for container commands
-alias pzb='docker compose exec dopthis backend python manage.py'
+alias pzb='docker compose exec backend dopthis python manage.py'
 alias pzp='docker compose -f docker-compose.prod.yml'
 alias pzpb='docker compose -f docker-compose.prod.yml exec backend dopthis python manage.py'
 
