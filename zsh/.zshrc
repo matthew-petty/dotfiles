@@ -240,3 +240,5 @@ alias lt='ls --tree'
 if [[ "$CLAUDECODE" != "1" ]]; then # don't use in claude code
     eval "$(zoxide init --cmd cd zsh)"
 fi
+
+eval "$(starship init zsh)"
