@@ -210,9 +210,9 @@ function y() {
 
 
 # pz-picker development aliases for container commands
-alias pzb='docker compose exec backend python manage.py'
+alias pzb='docker compose exec dopthis backend python manage.py'
 alias pzp='docker compose -f docker-compose.prod.yml'
-alias pzpb='docker compose -f docker-compose.prod.yml exec backend python manage.py'
+alias pzpb='docker compose -f docker-compose.prod.yml exec backend dopthis python manage.py'
 
 export GOOGLE_CLOUD_PROJECT="pz-pickers"
 
@@ -240,5 +240,3 @@ alias lt='ls --tree'
 if [[ "$CLAUDECODE" != "1" ]]; then # don't use in claude code
     eval "$(zoxide init --cmd cd zsh)"
 fi
-
-eval "$(starship init zsh)"
