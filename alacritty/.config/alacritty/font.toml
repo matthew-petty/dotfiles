@@ -1,0 +1,45 @@
+# Font Configuration
+
+[font]
+# Font size in points
+size = 20.0
+
+# Use built-in font for box drawing characters
+builtin_box_drawing = true
+
+# Normal (roman) font face
+[font.normal]
+family = "IntoneMono Nerd Font"
+style = "Regular"
+
+# Bold font face
+[font.bold]
+family = "IntoneMono Nerd Font"
+style = "Bold"
+
+# Italic font face
+[font.italic]
+family = "IntoneMono Nerd Font"
+style = "Italic"
+
+# Bold italic font face
+[font.bold_italic]
+family = "IntoneMono Nerd Font"
+style = "Bold Italic"
+
+# Offset is extra space around each character
+# offset.y can be used to move characters up or down
+[font.offset]
+x = 0
+y = 0
+
+# Glyph offset determines the locations of the glyphs within their cells
+[font.glyph_offset]
+x = 0
+y = 0
+
+# Alternative font families (fallback fonts)
+# Uncomment and modify if you want fallback fonts
+# [[font.normal.family]]
+# family = "SF Mono"
+# style = "Regular"

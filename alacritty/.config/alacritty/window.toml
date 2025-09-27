@@ -1,0 +1,57 @@
+# Window Configuration
+
+[window]
+# Window decorations
+# "full": Borders and title bar
+# "none": Neither borders nor title bar
+# "transparent": Title bar, transparent background and title bar buttons
+# "buttonless": Title bar, transparent background and no title bar buttons
+decorations = "buttonless"
+
+# Window padding (in pixels)
+# Blank space added around the window in pixels
+padding.x = 25
+padding.y = 20
+
+# Window opacity as a floating point number from 0.0 to 1.0
+opacity = 0.9
+
+# Spread additional padding evenly around the terminal content
+dynamic_padding = false
+
+# Window dimensions (columns and lines)
+# Falls back to window manager's recommended size if set to 0x0
+dimensions.columns = 140
+dimensions.lines = 40
+
+# Window position (changes require restart)
+# Specified in number of pixels
+# If unset, window manager will handle placement
+# position.x = 100
+# position.y = 100
+
+# Startup mode (changes require restart)
+# "Windowed", "Maximized", "Fullscreen", "SimpleFullscreen"
+startup_mode = "Windowed"
+
+# Window title
+title = "Alacritty"
+
+# Allow terminal applications to change window title
+dynamic_title = true
+
+# Window class (Linux/BSD only)
+# class.instance = "Alacritty"
+# class.general = "Alacritty"
+
+# Decorations theme variant
+# "None", "Dark", "Light"
+decorations_theme_variant = "None"
+
+# Resize increments
+# Prefer resizing window by discrete steps equal to cell dimensions
+resize_increments = true
+
+# Option as Alt on macOS
+# "None", "OnlyLeft", "OnlyRight", "Both"
+option_as_alt = "OnlyLeft"

@@ -1,0 +1,25 @@
+# Alacritty Configuration
+# This is the main configuration file that imports other modular configs
+
+[general]
+# Import configuration files in order
+# Later files override settings from earlier files
+import = [
+  "~/.config/alacritty/window.toml",
+  "~/.config/alacritty/font.toml",
+  "~/.config/alacritty/colors.toml",
+  "~/.config/alacritty/keybindings.toml",
+  "~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
+]
+
+# Enable live config reload
+live_config_reload = true
+
+# Set terminal environment
+[env]
+TERM = "xterm-256color"
+
+# Shell configuration (optional - uncomment if you want to specify a custom shell)
+# [shell]
+# program = "/bin/zsh"
+# args = ["-l"]

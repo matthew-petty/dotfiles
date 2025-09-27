@@ -1,0 +1,154 @@
+# Keybindings Configuration
+
+# Key bindings
+# Each binding is defined with:
+# - key: The key to bind
+# - mods: Modifier keys (Command, Control, Option, Shift, Alt, Super)
+# - action: The action to perform
+# - mode: Optional mode restriction (e.g., "~Vi", "Vi", "~Search")
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Command"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Command"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "Q"
+mods = "Command"
+action = "Quit"
+
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+action = "Quit"
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Command"
+action = "CreateNewWindow"
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Command|Control"
+action = "ToggleFullscreen"
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Command"
+action = "SearchForward"
+
+[[keyboard.bindings]]
+key = "B"
+mods = "Command"
+action = "SearchBackward"
+
+# Font size adjustments
+[[keyboard.bindings]]
+key = "Plus"
+mods = "Command"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Equals"
+mods = "Command"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Command"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Command"
+action = "ResetFontSize"
+
+# Vi Mode
+[[keyboard.bindings]]
+key = "Space"
+mods = "Control|Shift"
+action = "ToggleViMode"
+
+[[keyboard.bindings]]
+key = "Space"
+mods = "Control|Shift"
+mode = "~Search"
+action = "ToggleViMode"
+
+# Clear screen and scrollback
+[[keyboard.bindings]]
+key = "K"
+mods = "Command"
+action = "ClearHistory"
+
+[[keyboard.bindings]]
+key = "K"
+mods = "Command"
+mode = "~Vi|~Search"
+chars = "\f"
+
+[[keyboard.bindings]]
+key = "L"
+mods = "Control"
+action = "ClearLogNotice"
+
+# Scroll
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollPageUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollPageDown"
+
+[[keyboard.bindings]]
+key = "Home"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollToTop"
+
+[[keyboard.bindings]]
+key = "End"
+mods = "Shift"
+mode = "~Alt"
+action = "ScrollToBottom"
+
+# macOS specific bindings for common terminal operations
+[[keyboard.bindings]]
+key = "Left"
+mods = "Option"
+chars = "\u001bb"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Option"
+chars = "\u001bf"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Command"
+chars = "\u001bOH"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Command"
+chars = "\u001bOF"
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Command"
+chars = "\u0015"
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Option"
+chars = "\u001b\u007f"
