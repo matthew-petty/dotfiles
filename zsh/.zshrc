@@ -214,6 +214,11 @@ alias pzb='docker compose exec backend dopthis python manage.py'
 alias pzp='docker compose -f docker-compose.prod.yml'
 alias pzpb='docker compose -f docker-compose.prod.yml exec backend dopthis python manage.py'
 
+dpyairtable() {
+  doppler run -- pyairtable -ke AIRTABLE_READ_TOKEN "$@"
+}
+
+
 export GOOGLE_CLOUD_PROJECT="pz-pickers"
 
 # claude code
