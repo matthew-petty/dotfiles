@@ -152,6 +152,9 @@ autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 
+# Starship completions
+eval "$(starship completions zsh)"
+
 # Syntax and autosuggestions in terminal
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
