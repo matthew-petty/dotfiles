@@ -226,7 +226,6 @@ export GOOGLE_CLOUD_PROJECT="pz-pickers"
 
 # claude code
 export CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR=TRUE
-alias claude="/Users/matthewpetty/.claude/local/claude"
 
 # bun
 [ -s "/Users/matthewpetty/.bun/_bun" ] && source "/Users/matthewpetty/.bun/_bun"
