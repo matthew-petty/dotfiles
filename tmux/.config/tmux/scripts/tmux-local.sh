@@ -13,9 +13,6 @@ create_session "$SESSION" "$WORKING_DIR"
 # Rename first window to scratch
 tmux rename-window -t "$SESSION:0" "scratch"
 
-# Add music window
-add_window "$SESSION" "music" "$WORKING_DIR" "spotify_player"
-
 # Add files window
 add_window "$SESSION" "files" "$WORKING_DIR" "yazi"
 
