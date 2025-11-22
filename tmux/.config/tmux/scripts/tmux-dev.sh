@@ -33,9 +33,7 @@ tmux rename-window -t "$SESSION:1" "term"
 
 # Add development windows
 add_window "$SESSION" "agent" "$WORKING_DIR" "claude"
-add_window "$SESSION" "squad" "$WORKING_DIR" "cs"
 add_window "$SESSION" "git" "$WORKING_DIR" "lazygit"
-add_window "$SESSION" "docker" "$WORKING_DIR" "lazydocker"
 add_window "$SESSION" "gh" "$WORKING_DIR" "gh dash"
 
 # Select first window
