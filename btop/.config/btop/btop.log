@@ -10,3 +10,9 @@
 
 2025/06/13 (00:20:54) | ===> btop++ v.1.4.0
 2025/06/13 (00:20:54) | ERROR: Exception in runner thread -> Proc:: -> basic_string
+
+2025/11/22 (10:45:12) | ===> btop++ v.1.4.0
+2025/11/22 (10:45:12) | ERROR: Exception in runner thread -> Proc:: -> basic_string
+
+2025/12/26 (09:12:59) | ===> btop++ v.1.4.0
+2025/12/26 (09:13:00) | ERROR: Stall in Runner thread, restarting!

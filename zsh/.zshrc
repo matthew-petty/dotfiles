@@ -131,6 +131,7 @@ plugins=(
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nvzf='nvim $(fzf)'
+alias cfssh='ssh -o ProxyCommand="cloudflared access ssh --hostname %h"'
 
 
 # source ~/dev/powerlevel10k/powerlevel10k.zsh-theme
