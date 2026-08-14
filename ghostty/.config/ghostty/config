@@ -1,3 +1,6 @@
 theme = Catppuccin Frappe
 
 font-family = FiraCode Nerd Font Mono
+
+# Send ESC-prefixed Meta for remote vim/tmux keybindings over SSH
+macos-option-as-alt = true
